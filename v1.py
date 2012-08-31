@@ -4,7 +4,7 @@ import re
 
 url = "https://www10.v1host.com/ClickMotive/rest-1.v1/Data/Story?sel=Name,ToDo&where=ToDo='0'"
 request_object = urllib2.Request(url)
-base64string = base64.encodestring('%s:%s' % ('mlusby','Covax3141rb'))[:-1]
+base64string = base64.encodestring('%s:%s' % ('mlusby','FixThis'))[:-1]
 authheader=  "Basic %s" % base64string
 request_object.add_header("Authorization", authheader)
 try:
